@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Rocketry</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- ---------- Navigation Bar ---------- -->
+    <header>
+      <nav>
+        <input id="nav-toggle" type="checkbox" />
+        <div class="logo">DYMANIC ROCKETRY</div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">People</a></li>
+          <li><a href="#contact">Contact us</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </label>
+      </nav>
+    </header>
+
+    <!-- ---------- Landing Page ---------- -->
+    <section id="home">
+      <div class="landing">
+        <div class="planet planetEarth">
+          <!-- <div class="box-main">
+            <div class="firsthalf">
+              <img src="Images/Landing page text.png" alt="" />
+            </div>
+
+            <div class="secondhalf">
+              <img src="Images/Your Logo.png" alt="Company logo" />
+            </div>
+          </div> -->
+
+          <div class="box-main">
+            <div class="firsthalf">
+              <p class="text-big">Welcome to <br>Dymanic Rocketry</p>
+              <p class="text-small">
+                INDIA'S RIDE TO SPACE
+              </p>
+              
+            </div>
+    
+            <div class="secondhalf">
+              <img src="Images/Your Logo.png" alt="Company logo" />
+            </div>
+          </div>
+          <div class="container">
+            <div class="loader"><span></span></div>
+            <div class="earth"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------- Projects Area ---------- -->
+    <section id="projects">
+      <h1>Our Projects</h1>
+      <div class="projects">
+        <div class="pcontainer">
+          <div class="card">
+            <div class="box">
+              <div class="content">
+                <img class="product" src="Images/your product.png" alt="" />
+                <h3>Project 1</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum libero modi in sapiente amet alias eligendi,
+                  doloremque cupiditate sunt dignissimos veniam fugit obcaecati,
+                  quibusdam temporibus, harum possimus aspernatur iure iste!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="content">
+                <img class="product" src="Images/your product.png" alt="" />
+                <h3>Project 2</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum libero modi in sapiente amet alias eligendi,
+                  doloremque cupiditate sunt dignissimos veniam fugit obcaecati,
+                  quibusdam temporibus, harum possimus aspernatur iure iste!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="content">
+                <img class="product" src="Images/your product.png" alt="" />
+                <h3>Project 3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorum libero modi in sapiente amet alias eligendi,
+                  doloremque cupiditate sunt dignissimos veniam fugit obcaecati,
+                  quibusdam temporibus, harum possimus aspernatur iure iste!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Contact Us Area ---------- -->
+
+    <section id="contact">
+      <div class="ccontainer">
+        <div class="contactInfo">
+          <div>
+            <h2>Contact Us</h2>
+            <h3>Feel free to visit us on normal working days.</h3>
+            <h3>Also do visit our Merch Store..</h3>
+            <button type="button" class="visit">
+             <a href="#">
+               <span class="btnIcon"><i class="fas fa-shopping-cart"></i></ion-icon></span>
+               <span class="btnText">Visit Store </span>
+             </a>
+            </button>
+            <ul class="info">
+              <li>
+                <span><img src="Images/location.png" alt="" /></span>
+                <span>
+                  your address <br />
+                  line 2 <br />
+                  line 3
+                </span>
+              </li>
+              <div><button type="button" class="direction">
+                <a href="#">
+                  <span class="btnIcon"><i class="fas fa-location-arrow
+                    "></i></ion-icon></span>
+                  <span class="btnText">Get Directions</span>
+                </a>
+               </button></div>
+              <li>
+                <span><img src="Images/mail.png" alt="" /></span>
+                <span> youremail@adress.com </span>
+              </li>
+              <li>
+                <span><img src="Images/call.png" alt="" /></span>
+                <span> 123456789 </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contactForm">
+          <h2>Send a Message</h2>
+          <div class="formBox">
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>First Name</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>Last Name</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="email" required />
+              <span>Email ID</span>
+            </div>
+            <div class="inputBox w50">
+              <input type="text" required />
+              <span>Mobile Number</span>
+            </div>
+            <div class="inputBox w100">
+              <textarea required></textarea>
+              <span>Your Message....</span>
+            </div>
+            <div class="inputBox w100">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------- Footer ---------- -->
+
+    <footer>
+      <p class="text-footer">Copyright &copy; - All rights reserved</p>
+    </footer>
+
+  </body>
+</html>
