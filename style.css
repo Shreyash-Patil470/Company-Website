@@ -439,12 +439,12 @@ nav.black {
   width: calc(100% - 150px);
   height: 100%;
   border-radius: 15px;
-  background: #ffffff;
-  box-shadow: inset 5px 5px 21px #666666, inset -5px -5px 21px #ffffff;
+  background-color: #232427;
+
 }
 
 .ccontainer .contactForm h2 {
-  color: black;
+  color: white;
   font-size: 24px;
   font-weight: 500;
 }
@@ -455,11 +455,13 @@ nav.black {
   justify-content: space-between;
   flex-wrap: wrap;
   padding-top: 30px;
+  background-color: #232427;
 }
 
 .ccontainer .contactForm .formBox .inputBox {
   position: relative;
   margin-bottom: 35px;
+  color: white;
 }
 
 .ccontainer .contactForm .formBox .inputBox.w50 {
@@ -480,7 +482,8 @@ nav.black {
   color: #333;
   border: none;
   outline: none;
-  border-bottom: 1px solid #777;
+  background-color: #232427;
+  border-bottom: 1px solid rgb(248, 243, 243);
 }
 
 .ccontainer .contactForm .formBox .inputBox textarea {
@@ -505,24 +508,25 @@ nav.black {
   font-weight: 400;
   letter-spacing: 1px;
   color: red;
+  background-color: #232427;
 }
 
 .ccontainer .contactForm .formBox .inputBox input[type="submit"] {
   position: relative;
   cursor: pointer;
-  color: orange;
+  color: white;
   border: none;
   max-width: 150px;
   padding: 12px;
   border-radius: 10px;
-  background: #eaecf1;
-  box-shadow: 5px 5px 11px #bbbdc1, -5px -5px 11px #ffffff;
+  background: #3d66e0;
+  box-shadow:  5px 5px 8px #1b1b1e,
+               -5px -5px 8px #2b2d30;
 }
 
 .ccontainer .contactForm .formBox .inputBox input[type="submit"]:hover {
   border-radius: 10px;
-  background: #f5f2f8;
-  box-shadow: inset 8px 8px 15px #d5d3d8, inset -8px -8px 15px #ffffff;
+  background: #5f82ec;
 }
 
 .btn a {
