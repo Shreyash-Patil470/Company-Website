@@ -716,4 +716,9 @@ footer {
   }
 }
 
+@media only screen and (max-width: 375px){
+  nav .logo{
+    font-size: 19px;
+  }
+}
 /* ---------- Responsiveness --- END ---------- */
