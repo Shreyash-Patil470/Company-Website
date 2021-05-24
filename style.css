@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 /* ---------- Global Decleratons --- START ---------- */
 * {
@@ -346,7 +346,7 @@ nav.black {
   color: rgba(255, 255, 255, 0.5);
   z-index: 1;
   transition: 0.5s;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 /* ---------- Projects Area --- END ---------- */
 
@@ -439,12 +439,11 @@ nav.black {
   width: calc(100% - 150px);
   height: 100%;
   border-radius: 15px;
-background: #ffffff;
-border-radius: 15px;
-border-radius: 15px;
-background: #ffffff;
-box-shadow: inset 5px 5px 21px #666666,
-            inset -5px -5px 21px #ffffff;
+  background: #ffffff;
+  border-radius: 15px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: inset 5px 5px 21px #666666, inset -5px -5px 21px #ffffff;
 }
 
 .ccontainer .contactForm h2 {
@@ -529,22 +528,20 @@ box-shadow: inset 5px 5px 21px #666666,
   box-shadow: inset 8px 8px 15px #d5d3d8, inset -8px -8px 15px #ffffff;
 }
 
-.btn a{
+.btn a {
   height: 40px;
   padding: 5px 10px;
   color: black;
   text-decoration: none;
   border-radius: 10px;
-background: #3e65da;
-box-shadow:  5px 5px 10px #294390,
-             -5px -5px 10px #5387ff;
+  background: #3e65da;
+  box-shadow: 5px 5px 10px #294390, -5px -5px 10px #5387ff;
 }
 
-.btn a:hover{
+.btn a:hover {
   border-radius: 10px;
-background: #3e65da;
-box-shadow: inset 5px 5px 10px #294390,
-            inset -5px -5px 10px #5387ff;
+  background: #3e65da;
+  box-shadow: inset 5px 5px 10px #294390, inset -5px -5px 10px #5387ff;
 }
 
 /* ---------- Contact Us Area --- END ---------- */
@@ -560,7 +557,7 @@ footer {
 .text-footer {
   text-align: center;
   padding: 30px 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   display: flex;
   justify-content: center;
   color: white;
