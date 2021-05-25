@@ -350,6 +350,26 @@ nav.black {
 }
 /* ---------- Projects Area --- END ---------- */
 
+/* ---------- Newsletter --- START ---------- */
+
+.newsletter {
+  position: relative;
+  background-color: #294390;
+  width: 30%;
+  text-align: right;
+  padding: 0 23px;
+}
+
+  #newsletter {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+  }
+}
+
+/* ---------- Newsletter --- END ---------- */
+
 /* ---------- Contact Us Area --- START ---------- */
 
 #contact {
@@ -440,7 +460,6 @@ nav.black {
   height: 100%;
   border-radius: 15px;
   background-color: #232427;
-
 }
 
 .ccontainer .contactForm h2 {
@@ -520,8 +539,7 @@ nav.black {
   padding: 12px;
   border-radius: 10px;
   background: #3d66e0;
-  box-shadow:  5px 5px 8px #1b1b1e,
-               -5px -5px 8px #2b2d30;
+  box-shadow: 5px 5px 8px #1b1b1e, -5px -5px 8px #2b2d30;
 }
 
 .ccontainer .contactForm .formBox .inputBox input[type="submit"]:hover {
@@ -716,8 +734,8 @@ footer {
   }
 }
 
-@media only screen and (max-width: 375px){
-  nav .logo{
+@media only screen and (max-width: 375px) {
+  nav .logo {
     font-size: 19px;
   }
 }
