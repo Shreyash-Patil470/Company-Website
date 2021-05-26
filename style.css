@@ -373,9 +373,9 @@ nav.black {
   display: flex; /*its better to use inline-flex*/
 }
 .email-box i {
-  /* background: #2f3542; */
   background: #1c1c1c;
   box-shadow: 20px 20px 14px #0b0b0b, -20px -20px 14px #2d2d2d;
+  border-radius: 5px;
   width: 40px;
   line-height: 40px;
 }
@@ -394,11 +394,11 @@ nav.black {
   padding: 0 10px;
 }
 .nbtn {
-  /* background: #2f3542; */
   color: white;
   padding: 0 10px;
   text-transform: uppercase;
   cursor: pointer;
+  border-radius: 5px;
   background: #1c1c1c;
   box-shadow: 20px 20px 14px #0b0b0b, -20px -20px 14px #2d2d2d;
 }
